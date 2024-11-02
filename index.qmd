@@ -1,5 +1,5 @@
-# Preface {.unnumbered}
+# Descripción {.unnumbered}
 
-This is a Quarto book.
+Pequeña bienvendia e introducción.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+Este libro digital fue hecho usando *Quarto*. Puede revisar su documentación dentro del siguiente [link](https://quarto.org).

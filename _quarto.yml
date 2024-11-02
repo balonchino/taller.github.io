@@ -18,9 +18,11 @@ book:
   search: true
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd  
+    - 01-python-librerias.qmd
+    - 02-geomatica.qmd
+    - 03-imagenes.qmd
+    - 04-analisisTemporal.qmd
+    - 05-modelado.qmd
 
 bibliography: references.bib
 
