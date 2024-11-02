@@ -12,6 +12,7 @@ book:
     - name: Alén Miranda
       email: alen.miranda@alumnos.uach.cl
     - name: Danko Inzunza 
+    - name: Esto es una prueba
     - name: Robert Padilla
   date: today
   date-format: medium
