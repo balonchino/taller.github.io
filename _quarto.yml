@@ -1,0 +1,42 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  reader-mode: true
+  title: "Uso de Python y librerías geoespaciales para el análisis de datos en el contexto de los incendios forestales "
+  author:
+    - name: John Gajardo
+      orcid: 0000-0003-3368-5491
+      email: john.gajardo@uach.cl
+    - name: Alén Miranda
+      email: alen.miranda@alumnos.uach.cl
+    - name: Danko Inzunza 
+    - name: Robert Padilla
+  date: today
+  date-format: medium
+  search: true
+  downloads: [pdf]
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd  
+
+bibliography: references.bib
+
+format:
+  html:
+    css: style.css
+    theme: 
+      light: yeti
+      dark: cyborg
+    code-fold: false
+    lang: es
+    code-line-numbers: true
+    fig-align: center
+  pdf:
+    documentclass: scrreprt
+
+
+

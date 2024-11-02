@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="105.44mm"
+   height="35.61mm"
+   viewBox="0 0 298.88 100.95"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="10-07-geo-intersection.svg"
+   inkscape:export-filename="10-07-geo-intersection.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:export-bgcolor="#ffffffff"
+     inkscape:zoom="2.7853518"
+     inkscape:cx="199.2567"
+     inkscape:cy="67.316452"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <g
+     style="opacity:0.8"
+     id="g1">
+    <circle
+       cx="214.68"
+       cy="51.28"
+       r="34.98"
+       transform="matrix(0.94, -0.33, 0.33, 0.94, -4.87, 73.95)"
+       style="fill:none;stroke:#fec905;stroke-miterlimit:10;stroke-dasharray:1.9972946643829346,1.9972946643829346"
+       id="circle1" />
+  </g>
+  <g
+     style="opacity:0.8"
+     id="g2">
+    <circle
+       cx="249.65"
+       cy="51.28"
+       r="34.98"
+       transform="translate(74.78 236.69) rotate(-58.28)"
+       style="fill:none;stroke:#fec905;stroke-miterlimit:10;stroke-dasharray:1.9972946643829346,1.9972946643829346"
+       id="circle2" />
+  </g>
+  <line
+     x1="120.15"
+     y1="51.28"
+     x2="162.49"
+     y2="51.28"
+     style="fill:none;stroke:#139c5a;stroke-miterlimit:10"
+     id="line2" />
+  <polygon
+     points="161.03 56.27 169.67 51.28 161.03 46.3 161.03 56.27"
+     style="fill:#139c5a"
+     id="polygon2" />
+  <circle
+     cx="45.9"
+     cy="51.28"
+     r="34.98"
+     style="fill:#e21c84;stroke:#fff;stroke-miterlimit:10;opacity:0.4"
+     id="circle3" />
+  <circle
+     cx="80.88"
+     cy="51.28"
+     r="34.98"
+     style="fill:#0f9c5a;stroke:#fff;stroke-miterlimit:10;opacity:0.6"
+     id="circle4" />
+  <ellipse
+     cx="232.16"
+     cy="51.28"
+     rx="17.49"
+     ry="30.29"
+     style="fill:#fec905;opacity:0.8"
+     id="ellipse4" />
+</svg>
