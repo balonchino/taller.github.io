@@ -17,7 +17,6 @@ book:
   date: today
   date-format: medium
   search: true
-  downloads: [pdf]
   chapters:
     - index.qmd
     - intro.qmd
@@ -36,8 +35,6 @@ format:
     lang: es
     code-line-numbers: true
     fig-align: center
-  pdf:
-    documentclass: scrreprt
 
 
 
