@@ -27,7 +27,7 @@ jobs:
         run: conda env create -f tallerpython.yml
 
       - name: Activate Conda environment
-        run: echo "conda activate myenv" >> $GITHUB_ENV
+        run: source activate tallerpython
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
