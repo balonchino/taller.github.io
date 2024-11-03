@@ -124,47 +124,48 @@ En este panel se encuentra el script de *Python* a ejecutar. Dentro de este, se 
 
 ![Editor de *Spyder*](foo/web/01-03-editor.png){#fig-editor}
 
-2.  Consola
+2. Consola
 
-    Aquí es donde se ejecuta el código. Una manera de hacerlo es dentro del Editor y apretando `F5` o `Ctrl + Enter`. En el caso de querer ejecutar código en solo una línea o líneas seleccionadas, puede apretar `F9`. Tambíen puede ejecutar código directamente la consola.
+   Aquí es donde se ejecuta el código. Una manera de hacerlo es dentro del Editor y apretando `F5` o `Ctrl + Enter`. En el caso de querer ejecutar código en solo una línea o líneas seleccionadas, puede apretar `F9`. También puede ejecutar código directamente en la consola.
 
-![Consola de *Spyder*](foo/web/01-04-consola.png){#fig-consola}
+   ![Consola de *Spyder*](foo/web/01-04-consola.png){#fig-consola}
 
-    2.1. Historial
+   2.1. Historial
 
-    Se muestra el historial del código ejecutado. Tambíen aparece código de sesiones anteriores.
+   Se muestra el historial del código ejecutado. También aparece código de sesiones anteriores.
 
-![Historial de *Spyder*](foo/web/01-05-historial.png){#fig-historial}
+   ![Historial de *Spyder*](foo/web/01-05-historial.png){#fig-historial}
 
-3.  Conjunto de Sub-Paneles
+3. Conjunto de Sub-Paneles
 
-    Este panel contiene distintas herramientas que aportarán interactibilidad al análisis de datos.
+   Este panel contiene distintas herramientas que aportarán interactividad al análisis de datos.
 
-    3.1.  Explorador de variables
+   3.1. Explorador de variables
 
-    Se muestran los objetos creados con la posibildiad de interactuar con estos.
+   Se muestran los objetos creados con la posibilidad de interactuar con estos.
 
-::: {.callout-warning}
-Profe, Spyder está dando problemas con pandas, no puedo lograr mostrar los dataframes dentro del explorador
-:::
+   ::: {.callout-warning}
+   Profe, Spyder está dando problemas con pandas, no puedo lograr mostrar los dataframes dentro del explorador.
+   :::
 
-![Explorador de variables en *Spyder*](foo/web/01-06-variables.png){#fig-variables}
+   ![Explorador de variables en *Spyder*](foo/web/01-06-variables.png){#fig-variables}
 
-    3.2.  Gráficos
+   3.2. Gráficos
 
-    Muestra todos los gráficos ejecutados en la sesión.
+   Muestra todos los gráficos ejecutados en la sesión.
 
-![Gráficos dentro de *Spyder*](foo/web/01-07-graficos.png){#fig-graficos}
+   ![Gráficos dentro de *Spyder*](foo/web/01-07-graficos.png){#fig-graficos}
 
-    3.3.  Ayuda
+   3.3. Ayuda
 
-    A través de `Ctrl + I` *Spyder* es capaz de mostrar la documentación de la función en la que se está.
+   A través de `Ctrl + I`, *Spyder* es capaz de mostrar la documentación de la función en la que se está.
 
-![Ayuda dentro de *Spyder*](foo/web/01-08-ayuda.png){#fig-ayuda}
+   ![Ayuda dentro de *Spyder*](foo/web/01-08-ayuda.png){#fig-ayuda}
 
-    3.4.  Perfilador
+   3.4. Perfilador
 
-    El perfilador determina el tiempo de ejecución y el número de llamadas para cada función y método llamado en un archivo. Esto te permite identificar fácilmente los cuellos de botella en tu código, señala declaraciones exactas más críticas para la optimización y mide la diferencia de rendimiento después de los cambios de seguimiento.
+   El perfilador determina el tiempo de ejecución y el número de llamadas para cada función y método llamado en un archivo. Esto te permite identificar fácilmente los cuellos de botella en tu código, señala declaraciones exactas más críticas para la optimización y mide la diferencia de rendimiento después de los cambios de seguimiento.
+
 
 ![Perfilador (*Profiler*) dentro de *Spyder*](foo/web/01-09-profiler.png){#fig-profiler}
 
