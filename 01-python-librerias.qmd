@@ -8,7 +8,9 @@ Dentro de esta, la programación, en un contexto de academia científica, permit
 
 *Python* es un lenguaje de programación libre, abierto y gratuito, que puede ser descargado por cualquiera para ser usado. Este se ha convertido en uno de los lenguajes más populares y demandados en el mercado del trabajo (i.e. *PyQGIS* para desarrollar plugins y herramientas dentro del entorno de *QGIS*).
 
-==================================================================quizas aca nota de stack-overflow!====================================================================================================================================
+::: {.callout-note}
+Según *Stack Overflow* (uno de los foros de programadores más grande de internet) *Python* es el tercer lenguaje más popular.
+:::
 
 Existen distintas formas de ocupar *Python* (tales como, su misma terminal, *IPython*, *Jupyter*), sin embargo, para mejorar la interactibilidad de este lenguaje ocuparemos *Spyder* un IDE diseñado específicamente para *Python*. 
 
@@ -24,7 +26,9 @@ Bash es un intérprete de línea de comandos y un lenguaje de *scripting* muy po
 
 De forma nativa, este intérprete no se encuentra dentro de *Windows*, por lo que, para hacer uso de este deberemos descargar Git Bash, el cual integra esta herramiento junto con *git*, "un sistema de control de versiones distribuido, libre y de código abierto, diseñado para manejar proyectos de cualquier tamaño, desde pequeños hasta muy grandes, con rapidez y eficiencia".
 
-==================================================================Nota que destaque github, y las empresas en la que se ocupan!==================================================================
+::: {.callout-note}
+Si bien, *Git* no suena tan familiar, su versión online *GitHub* si. Esta página alberga código y sus versiones en internet y cualquier persona puede ser capaz de ver, replicar y alterar dicho (con los permisos suficientes). Algunas de las empresas que ocupan esto son Google, Microsoft y Netflix.
+:::
 
 Para su instalación, nos dirigiremos a la página oficial de *Git Bash*:
 
@@ -42,9 +46,9 @@ El instalador se encuentra disponible en:
 
 -   <https://docs.conda.io/en/latest/miniconda.html>
 
+::: {.callout-important}
 Es **IMPORTANTE** seleccionar el sistema operativo y versión (64-bit y 32-bit) que corresponda al computador y durante la instalación seleccione la primera opción para "Agregar Miniconda3 a mi variable de entorno PATH" seleccionando también en "Registrar Anaconda como Python 3.x predeterminado".
-
-==================================================================LO DE ARRIBA QUIZAS EN NOTA ROJA O ALGO, PARA QUE SE NOTE==================================================================
+:::
 
 Aunque el paso de agregar *Anaconda* al *PATH* no es recomendado por el sistema, lo haremos igualmente para que sea más fácil usar *Conda* con *Git Bash*.
 
@@ -64,15 +68,23 @@ Aunque el paso de agregar *Anaconda* al *PATH* no es recomendado por el sistema,
 
 ### El ambiente {-}
 
-Dentro *Conda* instalaremos un ambiente de *Python* con librerías específicas para el análisis de datos geoespaciales que sido creado exclusivamente para este taller. Puedes descargar el archivo del ambiente haciendo clic [aquí](recursos/tallerpython.yml){download="recursos/tallerpython.yml"}. 
-==================================================================TODAVIA SE TIENE QUE ACTUALIZAR==================================================================
+Dentro *Conda* instalaremos un ambiente de *Python* con librerías específicas para el análisis de datos geoespaciales que sido creado exclusivamente para este taller. Puedes descargar el archivo del ambiente haciendo clic [aquí](recursos/tallerpython.yml){download="tallerpython.yml"}. 
+
+::: {.callout-warning}
+Todavía hay que ver esto.
+:::
 
 Este archivo (de extensión `.yml`) contiene todos lo paquetes con sus dependencias necesarios para desarrollar las activiades posteriores. Dentro de el se encuentra el nombre del ambiente (en este caso `tallerpython`), las librerías y los canales por donde se descargaran estas. 
-==================================================================Nota que diga que usted tambien puede hacerlo con su propias librerias y necesidades segun sus necesidades==================================================================
 
-Para instalar este ambiente ejecute desde el Terminal el comando `conda env create -f tallerpython.yml`
+::: {.callout-note}
+Note que aquí estamos creando un ambiente con paquetes previamente definidos. Si desea crear otro ambiente, con otras librerías, puede consultar la guía de [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html).
+:::
 
-==================================================================El proceso toma tiempo y varía de acuerdo con las capacidades de cada computador.==================================================================
+Para instalar este ambiente ejecute desde el Terminal el comando `conda env create -f tallerpython.yml`.
+
+::: {.callout-important}
+Tenga en cuenta que el proceso toma tiempo y varía de acuerdo con las capacidades de cada computador.
+:::
 
 ![Instalación del entorno con el archivo `environment.yml`.](foo/03-07-mkenvir.png){#fig-mkenvir}
 
@@ -98,7 +110,9 @@ Para descargar el programa, nos deberemos dirigir al siguiente enlace:
 
 Dentro de este, deberemos escoger el sistema operativo del computador.
 
-==================================================================Importante. lo del kernel==================================================================
+::: {.callout-warning}
+Aquí explicar lo del kernel, que no me acuerdo.
+:::
 
 #### Partes de *Spyder* {-}
 
@@ -130,7 +144,9 @@ En este panel se encuentra el script de *Python* a ejecutar. Dentro de este, se 
 
     Se muestran los objetos creados con la posibildiad de interactuar con estos.
 
-==================================================================ver tema de incompatibilidades==================================================================
+::: {.callout-warning}
+Profe, Spyder está dando problemas con pandas, no puedo lograr mostrar los dataframes dentro del explorador
+:::
 
 ![Explorador de variables en *Spyder*](foo/web/01-06-variables.png){#fig-variables}
 
@@ -155,6 +171,6 @@ En este panel se encuentra el script de *Python* a ejecutar. Dentro de este, se 
 ## Ejemplos
 
 
-================================================================== Nota:
-
-No sería mejor igual descargar et, para gestionar la descarga de datos.==================================================================
+::: {.callout-warning}
+¿Vamos a incluir earthpy para descargar variables? o ¿cargaremos datasets a través de github u otra plataforma?
+:::
